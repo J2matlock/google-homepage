@@ -1,0 +1,1 @@
+This is a copy of the google homepage as referenced in https://www.theodinproject.com/lessons/html-css.

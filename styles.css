@@ -11,10 +11,8 @@ body {
     height: 100%;
     margin: 0;
 }
-.center {
+Nav {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 img {
     padding-top: 109px;
@@ -25,3 +23,63 @@ li {
     padding-left: 15px;
     color: #000;
     opacity: 0.75;
+}
+li a {
+    text-decoration: none;
+}
+.rightpad {
+    padding-right: 15px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search {
+    display: block;
+    margin: 25px auto auto auto;
+    width: 400px;
+    height: 38px;
+    border-radius: 200px;
+    border: 1px solid #dedede;
+    box-shadow: 1px 1px 1px 1px #eaeaea;
+}
+.gbtn {
+    margin: 15px;
+    margin-top: 15px;
+    height: 32px;
+    width: 110px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #5d5d5d;
+    font-size: 13px;
+}
+.luckbtn {
+    margin: 15px;
+    margin-top: 15px;
+    height: 32px;
+    width: 110px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #5d5d5d;
+    font-size: 13px;
+}
+.gbtn a {
+    text-decoration: none;
+    color: #5d5d5d;
+    font-size: 13px;
+}
+.luckbtn a {
+    text-decoration: none;
+    color: #5d5d5d;
+    font-size: 13px;
+}
+div .ctrbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

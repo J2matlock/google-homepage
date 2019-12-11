@@ -26,6 +26,10 @@ li {
 }
 li a {
     text-decoration: none;
+    color: #000;
+}
+li a:hover {
+    text-decoration: underline;
 }
 .rightpad {
     padding-right: 15px;
@@ -82,4 +86,24 @@ div .ctrbtn {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.btmnav {
+    background-color: #dedede;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40px;
+}
+.btmnav ul {
+    margin: 0;
+    vertical-align: middle;
+    line-height: 0px;
+}
+#LBN {
+    display: inline-block;
+    float: left;
+}
+#RBN {
+    display: inline-block;
+    float: right;
 }

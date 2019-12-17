@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: small;
+    background: #fff;
+    color: #222;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+/* ELEMENT TAGS */
+h1 {
+    grid-area: 1 / 1 / span 1 / 2; 
+    justify-self: center;
+}
+/* CLASS TAGS */
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 150px 410px auto 60px;
+    padding-left: 15px;
+    padding-top: 23px;
+    
+}
+
+.search {
+    width: 400px;
+    height: 38px;
+    border-radius: 200px;
+    border: 1px solid #dedede;
+    box-shadow: 1px 1px 1px 1px #eaeaea;
+}
+.searchgrid {
+    grid-area: 1 / 2 / span 1 / span 1;
+}
+/* ID TAGS */
+#logo {
+    width: 92px;
+    height: 30px;
+}
+/* C-C-C-C-C-COMBO TAGS */
